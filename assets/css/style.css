@@ -1,0 +1,138 @@
+body {
+    background-color: #E8EBE4;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    border: solid 2px;
+    border-color: #E8EBE4;
+}
+
+.contacts {
+    background-color: #FFF;
+    color: black;
+    flex-basis: 20%;
+    height: 100vh;
+    min-width: 350px;
+    overflow-y: auto;
+    width: 9em;
+    border: solid 2px;
+    border-color: #E8EBE4;
+
+}
+
+.profile {
+    width: 100%;
+    height: 100px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.info-content {
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    border-radius: 50%;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+p.status {
+    color: gray;
+    margin: 5px;
+}
+
+.icons {
+    text-align: right;
+    padding: 20px;
+}
+
+.button {
+    text-align: center;
+    padding: 20px;
+    border: solid 2px;
+    border-color: #E8EBE4;
+
+}
+
+.btn-new-message {
+    background-color: #A491D2;
+    border: solid 2px;
+    border-color: #A491D2;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.info img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+
+}
+
+.chat-contact {
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.contact-list {
+    border-bottom: solid 2px;
+    border-color: #E8EBE4;
+    margin: 0;
+    text-align: justify;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: left;
+    margin: 15px;
+}
+
+.contact {
+    display: flex;
+    border: solid 1px;
+    border-color: #E8EBE4;
+    margin: 0;
+}
+
+.li .contact {
+    border: solid 2px;
+    border-color: #E8EBE4;
+    justify-content: space-between;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.instructions-icon {
+    width: auto;
+    height: auto;
+    text-align: center;
+    border-radius: 50%;
+}
